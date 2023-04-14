@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+
+</head>
+<body>
+    <div class="lost-items">
+        <h2>분실물 게시판</h2>
+        <form>
+          <label for="item-name">물건 이름</label>
+          <input type="text" id="item-name" name="item-name" required>
+      
+          <label for="item-description">물건 설명</label>
+          <textarea id="item-description" name="item-description"></textarea>
+      
+          <label for="contact-info">연락처</label>
+          <input type="text" id="contact-info" name="contact-info" required>
+      
+          <button type="submit">등록하기</button>
+        </form>
+      
+        <h3>분실물 목록</h3>
+        <ul>
+          <li>
+            <h4>분실물 이름</h4>
+            <p>분실물 설명</p>
+            <p>연락처</p>
+          </li>
+          <li>
+            <h4>분실물 이름</h4>
+            <p>분실물 설명</p>
+            <p>연락처</p>
+          </li>
+          <li>
+            <h4>분실물 이름</h4>
+            <p>분실물 설명</p>
+            <p>연락처</p>
+          </li>
+        </ul>
+    </div>    
+</body>
+</html>
