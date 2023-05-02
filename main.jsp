@@ -12,7 +12,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
+        
+    <!-- <script type="text/javascript">
+    <a href="#" onclick="window.location='http://example.com'">Go to example.com</a>
+	</script>
+	 -->
     <style>
+    	
         .hero {
             background-color: white;
         }
@@ -68,9 +74,11 @@
     			<button type="button" class="btn btn-outline-primary">회원가입</button>
 			</div>
 
-            <img src="logo.png" style="float: left; margin-top: 5px;">
-            <h1 class="mb-4" style="margin-top: 15px">GNU 분실물 게시판</h1>
-            <h2 class="mb-4" style="margin-top: 15px">분실물을 찾아드립니다!</h2>
+            <img src="logo.png" style="float: left; margin-top: 10px; transform: scale(1.1); background-color: #fff;">
+            <h1 class="mb-4" style="margin-top: 15px; margin-left: 150px; width: 400px; 
+            height: 60px; padding: 10px; background-color: #4CAF50; color:white; border-radius: 10px;">GNU 분실물 게시판</h1>
+            <h2 class="mb-4" style="margin-top: 5px; margin-left: 150px; width: 500px; 
+            height: 50px color: black">분실물을 찾아드립니다!</h2>
         </div>
         <div class="container" style="margin-top:80px">
             <div class="row">
